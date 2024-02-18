@@ -53,7 +53,7 @@ function App() {
   const [diskSpace, setDiskSpace] = useState(25);
 
   // ------------ PROGRESSBAR ------------
-  const [initialCountdown, setInitialCountdown] = useState(10);
+  const [initialCountdown, setInitialCountdown] = useState(30);
   const [countdown, setCountdown] = useState(initialCountdown);
   const progress =
     countdown > 0
@@ -262,6 +262,11 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="github">
+        <a href="https://github.com/DavidMacak/react-hw" target="_blank">
+          Github
+        </a>
       </div>
     </div>
   );
